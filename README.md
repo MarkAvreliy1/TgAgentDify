@@ -51,8 +51,7 @@ Dify (Workflow), плагины Telegram Trigger и Airtable, Gemini Flash, Pyth
 6. В узле «HTTP-запрос» подставьте токен бота (`<TELEGRAM_BOT_TOKEN>`) и свой chat id (`<YOUR_TELEGRAM_CHAT_ID>`).
 7. Измените `BRAND_KEYWORD` на нужный бренд.
 
-## Что дальше
-
-- Вынести токен бота в Secret-переменную окружения Dify.
-- Устойчивый разбор ответа LLM (сейчас ожидается чистый JSON).
+## Вторая версия
 - Отдельный бэкенд (FastAPI + PostgreSQL) как альтернатива Airtable: начат, не завершён.
+- Docker
+
